@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maximum69Number (int num) {
-        string s=to_string(num);
+        string s=to_string(num); // nums to string change
         for(int i=0;i<size(s);i++)
         {
            if(s[i] != '9')
@@ -10,7 +10,7 @@ public:
                break;
            }   
         }
-        int n=stoi(s);
+        int n=stoi(s); // string(having int) to num
         return n;
     }
 };
